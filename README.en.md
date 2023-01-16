@@ -1,34 +1,33 @@
 <p align="center">
   <img width="500" src="./Logo.png" alt="Learn Git and GitHub">
 </p>
-<h1 align="center">Baro Git & GitHub</h1>
+<h1 align="center">Learn Git & GitHub</h1>
 <p align="left">
-  keydkani waxaa ugu Tala Galay In Ardayda iyo Junior developers ka ay ka baran karaa Nidamka Git kaaso oo ku sahlaya in Account kaaga Github ka Repository yadiisa aa la xariiri kartid, Hadii Aadan Hore U Aqoon Dhib Maleh Waxan ku bari Doonaa halkan Hadaba Hadii Adan Horey u leheen Samayso Account adiga oo Gujinaya -> <a href="https://github.com/" target="_blank">GitHub</a>.
+  This repository is intended for students and junior developers to learn how to use the Git making it easier for you to connect to your  repositories from Github Account. If you don't have prior knowledge of Git, no problem I will teach you all about it here. If you don't  already have an account, go create an account now by clicking -> <a href="https://github.com/" target="_blank">GitHub</a>.
 </p>
 
-## Waa Maxay Git & GitHub?
+## What is Git & GitHub?
 
-kaba soo qaad waxaa Lashaqaynaysaa Team kuwaas oo Sameynayaan Project `Online Registration` waaxaa lagu soo asign Gareeyey Task,
-sidee ula shaqeyn lahayd kooxdaas oo u qori lahayd code isla mar ahaantas iyaga iyo adi isku code ah waliba isku project isla mar ahaantas, ayado oo laga Foganaya Khilaaf. Hagaag, taasi waa meesha git iyo gitHub ama gitLab, ka soo galaan.
+Imagine yourself with a team with whom you are doing a project called `Online Registration` and you are assigned with a specific task. How would you work with that group and write a code when all of you share the same code for the same project you are supposed to work simultaneously avoiding any conflict. Well, that's where Git and GitHub or GitLab, come in.
 
-- waa Maxay `Git`?
+- What is `Git`?
 <p align="left">
-git waa Version Control System, dhab ahaantii waa nidaamka hoose ee ku shaqeeya qaab local ah.
+Git is a Version Control System, that actually works as a subsystem in a local format.
 </p>
 
-- Waa Maxay `GitHub` ama `GitLab`?
+- What is `GitHub` ama `GitLab`?
 <p align="left">
-waa Nidaam Online ah kaas oo logu talagalay in lagu kaydiyo, lagu lasocda software projects ka taas oo keeni karta in developers badan ay kawada shaqayn karaan project ayaka oo adeegsanaya nidamka git si ay ulaqaybqatan hadba project markas la hayaho.
+It is an online system which is designed to be store and monitored software projects that can give accesss to many developers who can work together on the project and use the Git system to share the project wherever it is maintained.
 </p>
 
-## <h1 align="left">faa'iidooyin ka Git and GitHub</h1>
+## <h1 align="left">Benefits of Using Git and GitHub</h1>
 
-- waxaa ow kuu sahlaa in aad daba gali karto/ Tracking isbadalka project kaaga.
-- in aad Team Devlopers la shaqayn karto project.
-- in aad la xariiri karto repository kaaga adiga oo adegsanaya CLI (Command Line Interface) kaaga, waliba samaynaa push pull GitHub Repository.
+- It makes it easier for you to follow/track any changes made in your project.
+- That you can work with a team of developers in a shared project.
+- That you can connect to your own repository through CLI (Command Line Interface) also do push/pull to the GitHub repository.
 
-<h3 align="left">Waa Maxay Repository?</h3>
-waa meel aad ku kayd sankarto project kaaga.
+<h3 align="left">What is Repository?</h3>
+It is a place to store your project.
 
 ## <h1 align="left">Amarada aasaasiga ah ee Git</h1>
 
@@ -76,32 +75,32 @@ isticmaal Command-gan soosocdo si aad ugu shubato `git` linux-kaaga:
 sudo apt install git-all
 ```
 
-# sidee Project local ah loosoo saraa Github ama GitLab adiga oo adeegsanayo amarada git.
+# How to upload a local project to Github or GitLab using git commands
 
-- Marka Hore waxaad u bahantahay in soo furto `Terminal` ama `Command-Line Interface` adiga oo tagaya Project meeshisa / `Folder directory` kadib adeegsanaya Amarada/commands git.
-- kadib qor amradan/commands kan
-  - `git init` oo ah abuur repositery cusub
-  - `git add ` isticmaal marka aad adegsanayso command gan calamada `.` oo micnaheedu yahay dhamaan hal-mar kuwad shub repositery-ga files-ka, hadii aad hore u sameysay balse file aad wax kabadashay waxaad samayn kartaa isla command-gan adiga oo dhahaya tusaale: `git add file.js` command-gan waxow ku samaynayaa in aad kaliya file kas saarankarto repositery-gaaga
+- First you need to open `Terminal` or `Command-Line Interface` by going to the Project / `Folder directory' and then use the following git commands.
+- Write the commands in this order:
+  - `git init` to create new repository.
+  - `git add ` use the fullstop sign `.` when executing this command. The function of it is add all the files in repository at once. If you have already used the command and want to add invidual files you can do this by writing this way: `git add file.js`. Thsi command allows you to add the only one file at a time to your repository.
   - Kadib samey commit adiga oo adegsanaya commad-gan `git commit -m 'waxa aad samaysay ku qeexaya halkan'`
   - hadii aadan hore ugu link-gareysnayn github link-gaaga ama gitLab kaaga isticmaal command-gan `git remote add <git URL>`.
     -kadib push garey adiga oo adeegsanaya command-ga `git push origin main` hadii repositery-gaaga `master` yahay kubadal meesha `main` adiga oo qoraya sidan `git push origin Master`.
 
-## Wax ku darso mashruuca
+## Contribute to the project
 
-Si aan u ogaado in aad wax ka fahantay waxaan lagaaga Bahanyahay qodobadan Soosocda:
+To recap what you have learned so far, I want you to do the following:
 
-- Fork ku dhaho Project-ga kontadaada asaasiga ee GitHub.
-- Samey Json file adiga oo ku dhex abuuraaya directory-ka `./contributers/{magacaaga}.json` kuna dhex qorayaa sidatan.
+- Fork the project to your Github account.
+- Make a JSON file in the directory of contributers writing it in this format `./contributers/{your_name}.json`.
 
 ```json
 {
-  "name": "Magacaaga",
-  "university": "Jamacada aad dhigatid / kasoo baxday",
-  "description": "Faahfaahin ku qor halkan."
+  "name": "Your name",
+  "university": "University your enrolled in or graduated from",
+  "description": "Write a bit description here"
 }
 ```
 
-## Mahadsanidin Dhamaan (Contributers)
+## Thank you all! (Contributers)
 
 <a href = "https://github.com/abdorizak/Learn_Git_and_GitHub/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=abdorizak/Learn_Git_and_GitHub"/>
